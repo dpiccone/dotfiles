@@ -201,3 +201,5 @@ nnoremap <C-k> :m .-2<CR>
 
 """ Custom functions
 command! GetPackageJson execute "edit " . findfile("package.json", ".;")
+
+source $HOME/.vim/functions.vim
